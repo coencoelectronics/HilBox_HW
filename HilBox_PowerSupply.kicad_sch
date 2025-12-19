@@ -11938,7 +11938,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Gascard_Lib:Terminal_Block_3_81_10p"
+		(property "Footprint" "Connector_Phoenix_MC:PhoenixContact_MCV_1,5_10-G-3.81_1x10_P3.81mm_Vertical"
 			(at 19.05 39.37 0)
 			(effects
 				(font

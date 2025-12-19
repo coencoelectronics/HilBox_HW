@@ -1107,169 +1107,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:Conn_01x02_Pin"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Conn_01x02_Pin"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Generic connector, single row, 01x02, script generated"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x02_Pin_1_1"
-				(rectangle
-					(start 0.8636 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(rectangle
-					(start 0.8636 -2.413)
-					(end 0 -2.667)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy 0.8636 0)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 0.8636 -2.54)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -2.54 180)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -2630,16 +2467,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 26.67) (xy 167.64 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ce368c3-4914-42cd-b514-a55e23025222")
-	)
-	(wire
-		(pts
 			(xy 151.13 156.21) (xy 165.1 156.21)
 		)
 		(stroke
@@ -3340,16 +3167,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 26.67) (xy 165.1 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e26fc0a-5dc7-4048-addc-6105637d433e")
-	)
-	(wire
-		(pts
 			(xy 80.01 142.24) (xy 83.82 142.24)
 		)
 		(stroke
@@ -3990,16 +3807,6 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 62.23) (xy 168.91 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98877433-24bd-4e88-9cb4-f7d54571c557")
-	)
-	(wire
-		(pts
 			(xy 87.63 71.12) (xy 100.33 71.12)
 		)
 		(stroke
@@ -4057,16 +3864,6 @@
 			(type default)
 		)
 		(uuid "a05fdaf7-3744-4a7e-b059-9da23f3f848d")
-	)
-	(wire
-		(pts
-			(xy 161.29 109.22) (xy 161.29 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a15745f7-69f4-49c5-8b15-c35402436123")
 	)
 	(wire
 		(pts
@@ -4190,16 +3987,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 144.78) (xy 165.1 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b00227ce-34a0-448f-8dee-366df910e929")
-	)
-	(wire
-		(pts
 			(xy 222.25 26.67) (xy 226.06 26.67)
 		)
 		(stroke
@@ -4260,16 +4047,6 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 62.23) (xy 171.45 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b80d0f4c-d519-4f88-a18d-1a0b9336aa78")
-	)
-	(wire
-		(pts
 			(xy 267.97 26.67) (xy 271.78 26.67)
 		)
 		(stroke
@@ -4307,16 +4084,6 @@
 			(type default)
 		)
 		(uuid "bb27cea6-e866-436c-a265-a661ca581f67")
-	)
-	(wire
-		(pts
-			(xy 163.83 109.22) (xy 163.83 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bb33e60e-9de9-42df-b4b3-0184a699708a")
 	)
 	(wire
 		(pts
@@ -4517,16 +4284,6 @@
 			(type default)
 		)
 		(uuid "cd0da2e3-e2c4-4c80-b64e-b39fd3f2ce27")
-	)
-	(wire
-		(pts
-			(xy 167.64 144.78) (xy 167.64 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cdd0d1a3-5de7-4e6e-b365-1605a958bb29")
 	)
 	(wire
 		(pts
@@ -5590,72 +5347,6 @@
 			(project "HilBox"
 				(path "/c950b3bb-3e52-4d0d-8bbf-240895efa80b/a8c8e889-bfc3-4597-89d9-1c85d4e0a3af"
 					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 163.83 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0546fd2b-3b49-40b9-af3b-002cb1f03fd2")
-		(property "Reference" "#PWR041"
-			(at 163.83 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 163.83 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 163.83 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 163.83 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d7803e9b-7904-46a4-b23c-f36863c79c21")
-		)
-		(instances
-			(project "HilBox"
-				(path "/c950b3bb-3e52-4d0d-8bbf-240895efa80b/a8c8e889-bfc3-4597-89d9-1c85d4e0a3af"
-					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -7509,184 +7200,6 @@
 			(project "HilBox"
 				(path "/c950b3bb-3e52-4d0d-8bbf-240895efa80b/a8c8e889-bfc3-4597-89d9-1c85d4e0a3af"
 					(reference "#PWR0358")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 167.64 139.7 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3769261c-8424-42f7-abc2-b696b2ab2487")
-		(property "Reference" "J4"
-			(at 168.91 139.0649 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 168.91 141.6049 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 167.64 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 167.64 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 167.64 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_PN" "C225477"
-			(at 167.64 139.7 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_PCB" ""
-			(at 167.64 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b1d214e5-6222-45f8-8f5f-1b57cd520538")
-		)
-		(pin "1"
-			(uuid "1d657ce3-7f48-48c8-8613-2f65a1646772")
-		)
-		(instances
-			(project "HilBox"
-				(path "/c950b3bb-3e52-4d0d-8bbf-240895efa80b/a8c8e889-bfc3-4597-89d9-1c85d4e0a3af"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 167.64 21.59 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3e260ca0-16d8-4891-81e6-c91294c5c167")
-		(property "Reference" "J1"
-			(at 168.91 20.9549 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 168.91 23.4949 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 167.64 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 167.64 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 167.64 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_PN" "C225477"
-			(at 167.64 21.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_PCB" ""
-			(at 167.64 21.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "01f90438-e3df-4f52-b1af-d1af6f79dbdd")
-		)
-		(pin "1"
-			(uuid "59eadb87-b059-43ab-a683-890e9d776631")
-		)
-		(instances
-			(project "HilBox"
-				(path "/c950b3bb-3e52-4d0d-8bbf-240895efa80b/a8c8e889-bfc3-4597-89d9-1c85d4e0a3af"
-					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -9610,161 +9123,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 163.83 104.14 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6a563cea-e16d-4a94-970a-83134a5123a2")
-		(property "Reference" "J3"
-			(at 165.1 103.5049 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 165.1 106.0449 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 163.83 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 163.83 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 163.83 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_PN" "C225477"
-			(at 163.83 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_PCB" ""
-			(at 163.83 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "42a793a2-a932-4057-8eb9-2906eb76274d")
-		)
-		(pin "1"
-			(uuid "2c10c7fa-575d-4306-96b0-1809782ccbaa")
-		)
-		(instances
-			(project "HilBox"
-				(path "/c950b3bb-3e52-4d0d-8bbf-240895efa80b/a8c8e889-bfc3-4597-89d9-1c85d4e0a3af"
-					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 167.64 30.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6d8f2f9c-996f-450b-8f8f-9055ea8c863f")
-		(property "Reference" "#PWR039"
-			(at 167.64 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 167.64 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 167.64 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "edcbc716-29c2-4ebb-9957-f78221a4e2e2")
-		)
-		(instances
-			(project "HilBox"
-				(path "/c950b3bb-3e52-4d0d-8bbf-240895efa80b/a8c8e889-bfc3-4597-89d9-1c85d4e0a3af"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 34.29 52.07 90)
 		(unit 1)
@@ -10437,95 +9795,6 @@
 			(project "HilBox"
 				(path "/c950b3bb-3e52-4d0d-8bbf-240895efa80b/a8c8e889-bfc3-4597-89d9-1c85d4e0a3af"
 					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x02_Pin")
-		(at 171.45 57.15 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "866b807a-b7cf-447e-95ca-b8d5820a3e22")
-		(property "Reference" "J2"
-			(at 172.72 56.5149 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x02_Pin"
-			(at 172.72 59.0549 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 171.45 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.45 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 171.45 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_PN" "C225477"
-			(at 171.45 57.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_PCB" ""
-			(at 171.45 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8fb9de40-fccf-4125-9c9a-b2d5bfd822f7")
-		)
-		(pin "1"
-			(uuid "5e009cad-e3c2-4d8e-a43e-568ae7bb6901")
-		)
-		(instances
-			(project "HilBox"
-				(path "/c950b3bb-3e52-4d0d-8bbf-240895efa80b/a8c8e889-bfc3-4597-89d9-1c85d4e0a3af"
-					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -12272,6 +11541,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
@@ -13812,72 +13082,6 @@
 				(path "/c950b3bb-3e52-4d0d-8bbf-240895efa80b/a8c8e889-bfc3-4597-89d9-1c85d4e0a3af"
 					(reference "U7")
 					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 167.64 148.59 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d9f0156d-62a2-4445-93ec-a00fdae9ba5c")
-		(property "Reference" "#PWR042"
-			(at 167.64 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 167.64 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 167.64 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 167.64 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 167.64 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "83097af7-a75e-41f2-bcee-97093550ab30")
-		)
-		(instances
-			(project "HilBox"
-				(path "/c950b3bb-3e52-4d0d-8bbf-240895efa80b/a8c8e889-bfc3-4597-89d9-1c85d4e0a3af"
-					(reference "#PWR042")
-					(unit 1)
 				)
 			)
 		)
@@ -15469,72 +14673,6 @@
 			(project "HilBox"
 				(path "/c950b3bb-3e52-4d0d-8bbf-240895efa80b/a8c8e889-bfc3-4597-89d9-1c85d4e0a3af"
 					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 171.45 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fac91b3f-f877-481e-8b24-31348fc324b7")
-		(property "Reference" "#PWR040"
-			(at 171.45 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 171.45 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 171.45 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "952338ab-e98c-484d-9c3e-3ad5a55c9b43")
-		)
-		(instances
-			(project "HilBox"
-				(path "/c950b3bb-3e52-4d0d-8bbf-240895efa80b/a8c8e889-bfc3-4597-89d9-1c85d4e0a3af"
-					(reference "#PWR040")
 					(unit 1)
 				)
 			)

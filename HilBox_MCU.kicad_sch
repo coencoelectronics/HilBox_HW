@@ -9126,7 +9126,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "AMBER"
+		(property "Value" "RED"
 			(at 33.782 160.528 90)
 			(effects
 				(font
@@ -9691,7 +9691,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220R"
+		(property "Value" "680R"
 			(at 28.194 147.32 90)
 			(effects
 				(font
@@ -9727,7 +9727,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC_PN" "C1091"
+		(property "JLC_PN" "C25177"
 			(at 30.48 149.86 90)
 			(effects
 				(font
@@ -9865,7 +9865,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "220R"
+		(property "Value" "680R"
 			(at 14.224 147.32 90)
 			(effects
 				(font
@@ -9901,7 +9901,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLC_PN" "C1091"
+		(property "JLC_PN" "C25177"
 			(at 16.51 149.86 90)
 			(effects
 				(font
@@ -11892,93 +11892,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 43.18 149.86 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "88eb00fc-0642-439b-9ac6-125ff7a84e28")
-		(property "Reference" "R126"
-			(at 43.18 147.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220R"
-			(at 40.894 147.32 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 44.958 149.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 43.18 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 43.18 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_PN" "C1091"
-			(at 43.18 149.86 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC_PCB" ""
-			(at 43.18 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5f2cc3f4-b0b0-4b9a-99b1-04c3acdd0054")
-		)
-		(pin "1"
-			(uuid "d569628e-0cf9-4cba-a1e0-fd4e8eb6f9c6")
-		)
-		(instances
-			(project "HilBox"
-				(path "/c950b3bb-3e52-4d0d-8bbf-240895efa80b/80d7f8d4-2eff-419a-a5a7-9b0e853e9191"
-					(reference "R126")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 31.75 120.65 0)
 		(unit 1)
@@ -13484,7 +13397,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "YELLOW"
+		(property "Value" "RED"
 			(at 46.482 160.528 90)
 			(effects
 				(font
@@ -14996,7 +14909,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "PURPLE"
+		(property "Value" "RED"
 			(at 19.812 160.528 90)
 			(effects
 				(font

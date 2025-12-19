@@ -866,16 +866,20 @@
       "HilBox_PowerSupply"
     ],
     [
-      "980a5bd7-4c9a-43a6-b8e1-8bc9c20bda59",
-      "HilBox_USB1"
-    ],
-    [
       "a8c8e889-bfc3-4597-89d9-1c85d4e0a3af",
       "HilBox_AnalogOutputs"
     ],
     [
+      "824ba494-b5d1-437b-b50c-bfb52b4237bf",
+      "Aux_USB_Converter"
+    ],
+    [
       "f996dd68-0c02-4f61-a894-5fc7c316be5e",
       "HilBox_Relays"
+    ],
+    [
+      "d526d9f7-921b-4a88-83f5-9148223753f1",
+      "Test_Frontent"
     ],
     [
       "c547c206-a6b9-4d1b-9b51-bded6de642d2",
