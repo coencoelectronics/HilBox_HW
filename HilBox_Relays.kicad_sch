@@ -4310,6 +4310,104 @@
 		)
 	)
 	(symbol
+		(lib_id "Relay:G6K-2")
+		(at 100.33 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f43561a-a82b-4bb1-b59e-9f9976840760")
+		(property "Reference" "K2"
+			(at 116.84 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "G6K-2F-Y-5V"
+			(at 116.84 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Relays:RELAY_G6K-2F_DC5"
+			(at 100.33 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf"
+			(at 100.33 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Miniature 2-pole relay, Single-side Stable"
+			(at 100.33 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_PN" "C2906368"
+			(at 100.33 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f438a66c-2f76-4c9e-86a1-6bd1c307eb5e")
+		)
+		(pin "3"
+			(uuid "9468a428-8ba4-46dd-a957-02564caf2180")
+		)
+		(pin "1"
+			(uuid "f02061c1-8128-4d4f-a74a-06adcaa850a2")
+		)
+		(pin "7"
+			(uuid "a6cdb8ee-9fc4-462e-addd-debe9ef02041")
+		)
+		(pin "8"
+			(uuid "07542ce1-dc58-4165-97d4-37f0a5816a14")
+		)
+		(pin "4"
+			(uuid "118e086a-f5ee-4393-afb3-14447efed3dd")
+		)
+		(pin "6"
+			(uuid "ffc96889-1318-4932-878f-ac332623ea4a")
+		)
+		(pin "5"
+			(uuid "f3d8a1e0-f4e2-4cae-bb9e-805b0b8bfbf0")
+		)
+		(instances
+			(project "HilBox"
+				(path "/c950b3bb-3e52-4d0d-8bbf-240895efa80b/f996dd68-0c02-4f61-a894-5fc7c316be5e"
+					(reference "K2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VCC")
 		(at 81.28 140.97 0)
 		(unit 1)
@@ -4770,6 +4868,104 @@
 			(project "HilBox"
 				(path "/c950b3bb-3e52-4d0d-8bbf-240895efa80b/f996dd68-0c02-4f61-a894-5fc7c316be5e"
 					(reference "#PWR0307")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Relay:G6K-2")
+		(at 100.33 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9af0abec-0324-44ba-8e7c-9719587518d1")
+		(property "Reference" "K3"
+			(at 116.84 151.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "G6K-2F-Y-5V"
+			(at 116.84 153.6699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Relays:RELAY_G6K-2F_DC5"
+			(at 100.33 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf"
+			(at 100.33 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Miniature 2-pole relay, Single-side Stable"
+			(at 100.33 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_PN" "C2906368"
+			(at 100.33 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "344a9867-a737-4db6-895f-8ae81f0eccf8")
+		)
+		(pin "3"
+			(uuid "45b3497d-8c50-4552-bd0a-5846480911e0")
+		)
+		(pin "1"
+			(uuid "44b3fa07-2fa8-422a-b10d-b1e95cf3bdef")
+		)
+		(pin "7"
+			(uuid "ac6de827-2244-47bd-b65b-887e663fbd9f")
+		)
+		(pin "8"
+			(uuid "cc75ff3f-322e-44ba-9d28-34686a2d1414")
+		)
+		(pin "4"
+			(uuid "7fcc7acf-0a92-4e3d-a845-862bf26706eb")
+		)
+		(pin "6"
+			(uuid "6b7158c2-1a0b-477b-9906-a58a0cc283d1")
+		)
+		(pin "5"
+			(uuid "bdcc0102-54d7-4b06-9ab1-b7d109ee9195")
+		)
+		(instances
+			(project "HilBox"
+				(path "/c950b3bb-3e52-4d0d-8bbf-240895efa80b/f996dd68-0c02-4f61-a894-5fc7c316be5e"
+					(reference "K3")
 					(unit 1)
 				)
 			)

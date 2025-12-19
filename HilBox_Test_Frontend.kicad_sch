@@ -4090,7 +4090,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Relays:RELAY_G6K-2F_DC5"
+		(property "Footprint" "LED_SMD:LED_RGB_5050-6"
 			(at 194.31 85.09 0)
 			(effects
 				(font
