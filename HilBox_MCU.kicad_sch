@@ -5357,16 +5357,6 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 73.66) (xy 91.44 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad394ff0-e87c-4aaa-bab2-d63f2e3757b7")
-	)
-	(wire
-		(pts
 			(xy 31.75 109.22) (xy 31.75 110.49)
 		)
 		(stroke
@@ -7008,28 +6998,6 @@
 		(uuid "bd58c9ec-ca4e-4f58-b879-2adef9b10ebf")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 228.1548 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "FLAME_IN"
-		(shape input)
-		(at 71.12 73.66 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "c1cc2f83-ccda-417f-b4e7-ef05e723500a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 59.4262 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)

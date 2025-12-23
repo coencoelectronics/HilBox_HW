@@ -3490,6 +3490,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 30.48) (xy 90.17 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d54037b8-718a-44fd-b5f6-7e28951dc007")
+	)
+	(wire
+		(pts
 			(xy 265.43 63.5) (xy 265.43 66.04)
 		)
 		(stroke
@@ -6693,6 +6703,15 @@
 			)
 		)
 		(property "Description" "DC Barrel Jack"
+			(at 34.29 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_PN" "C194407"
 			(at 34.29 17.78 0)
 			(effects
 				(font
@@ -9997,6 +10016,72 @@
 			(project "HilBox"
 				(path "/c950b3bb-3e52-4d0d-8bbf-240895efa80b/20c2d1d3-0af9-4fc8-9937-55430b2e771e"
 					(reference "#PWR0294")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 90.17 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b34be83e-d12d-4675-ad97-c1cc88a27af4")
+		(property "Reference" "#PWR025"
+			(at 90.17 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Vin"
+			(at 90.17 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 90.17 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "905db913-0790-4c1a-b334-b16ffea06d4b")
+		)
+		(instances
+			(project "HilBox"
+				(path "/c950b3bb-3e52-4d0d-8bbf-240895efa80b/20c2d1d3-0af9-4fc8-9937-55430b2e771e"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)

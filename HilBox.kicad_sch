@@ -1401,6 +1401,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 104.14) (xy 135.89 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11cf6ad5-09b4-4c19-8342-39841b9a03bd")
+	)
+	(wire
+		(pts
 			(xy 132.08 119.38) (xy 132.08 123.19)
 		)
 		(stroke
@@ -1441,6 +1451,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 101.6) (xy 135.89 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "558324e6-473e-4f4d-93fc-5b58238734b7")
+	)
+	(wire
+		(pts
 			(xy 82.55 116.84) (xy 118.11 116.84)
 		)
 		(stroke
@@ -1451,6 +1471,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 88.9) (xy 135.89 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a016e4b-fa64-4e03-86ad-4ec4d854ddc9")
+	)
+	(wire
+		(pts
 			(xy 118.11 130.81) (xy 118.11 132.08)
 		)
 		(stroke
@@ -1458,6 +1488,16 @@
 			(type default)
 		)
 		(uuid "753b9a97-2368-4204-8c16-a905f96e7077")
+	)
+	(wire
+		(pts
+			(xy 82.55 86.36) (xy 135.89 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "797c0d85-6f60-4a02-a3d7-97ffc1d70ff2")
 	)
 	(wire
 		(pts
@@ -1551,6 +1591,16 @@
 	)
 	(wire
 		(pts
+			(xy 73.66 143.51) (xy 85.09 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b03a1a8b-1f55-424e-9491-d34c1af65e09")
+	)
+	(wire
+		(pts
 			(xy 132.08 119.38) (xy 135.89 119.38)
 		)
 		(stroke
@@ -1558,6 +1608,26 @@
 			(type default)
 		)
 		(uuid "b1b052a5-7e4b-4306-af86-39003299a128")
+	)
+	(wire
+		(pts
+			(xy 82.55 91.44) (xy 135.89 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6d35091-2dbd-4137-915c-91d690feb416")
+	)
+	(wire
+		(pts
+			(xy 82.55 96.52) (xy 135.89 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b92a67b2-201b-423a-b423-5fe1f7e07384")
 	)
 	(wire
 		(pts
@@ -1591,6 +1661,26 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 99.06) (xy 135.89 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9a700d1-5a76-4a6d-873c-3678aeaeb980")
+	)
+	(wire
+		(pts
+			(xy 73.66 139.7) (xy 73.66 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d54b3556-f6b6-4040-bc88-187d1f549e01")
+	)
+	(wire
+		(pts
 			(xy 95.25 134.62) (xy 95.25 114.3)
 		)
 		(stroke
@@ -1598,16 +1688,6 @@
 			(type default)
 		)
 		(uuid "d85fa705-3a5b-4362-b046-52212daaf0f2")
-	)
-	(wire
-		(pts
-			(xy 85.09 143.51) (xy 77.47 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc99d1eb-c82e-4c4e-9c50-97e631dd54ba")
 	)
 	(wire
 		(pts
@@ -1628,6 +1708,16 @@
 			(type default)
 		)
 		(uuid "f532c8bc-6203-4d38-b5ef-e954e5adcb2d")
+	)
+	(wire
+		(pts
+			(xy 82.55 93.98) (xy 135.89 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8fd1e00-bebf-420e-bb97-4e850357b9ac")
 	)
 	(global_label "CANL"
 		(shape input)
@@ -1651,6 +1741,28 @@
 			)
 		)
 	)
+	(global_label "RLY1_B"
+		(shape input)
+		(at 135.89 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1ced8ebe-f417-4ad1-9cdb-385a45245cdd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 145.709 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RS485_A"
 		(shape input)
 		(at 102.87 121.92 0)
@@ -1664,6 +1776,72 @@
 		(uuid "2aceb666-6909-4cc7-ad96-761b17120bc0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 114.0194 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RLY3_A"
+		(shape input)
+		(at 135.89 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "39a0d6a3-a158-4e45-9549-ba579ba61425")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 145.5276 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RLY4_B"
+		(shape input)
+		(at 135.89 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4d88f0b3-e2dc-4c99-be7c-1f4aab77c50f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 145.709 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RLY1_A"
+		(shape input)
+		(at 135.89 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4fca8ab7-618d-4433-bda3-d8efaece2289")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 145.5276 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1708,6 +1886,50 @@
 		(uuid "64765c3a-075d-417a-a783-240cd042b458")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 141.5361 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RLY2_A"
+		(shape input)
+		(at 135.89 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9d16c2ef-15fd-41ae-8486-04f2dd4186c6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 145.5276 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RLY4_A"
+		(shape input)
+		(at 135.89 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9de6dde5-5629-4d57-98b2-b83a06f02bfb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 145.5276 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1796,6 +2018,50 @@
 		(uuid "bcdf5add-46b6-4502-b21c-3a8decdeb215")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 110.8748 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RLY3_B"
+		(shape input)
+		(at 135.89 91.44 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d3beb20e-08bd-4502-8735-00825e442151")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 145.709 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RLY2_B"
+		(shape input)
+		(at 135.89 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ffe8d14f-6544-4b04-94e9-ca755474f3c5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 145.709 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1966,6 +2232,152 @@
 		)
 	)
 	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 128.27 177.8 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1e0e2cb3-62ff-4119-b11d-b1993a56e654")
+		(property "Reference" "H6"
+			(at 130.81 176.5299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 130.81 179.0699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 128.27 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 128.27 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_PCB" ""
+			(at 128.27 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "HilBox"
+				(path "/c950b3bb-3e52-4d0d-8bbf-240895efa80b"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 128.27 171.45 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3f158648-b0b2-4b9c-9d52-65fdadb05b34")
+		(property "Reference" "H5"
+			(at 130.81 170.1799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "MountingHole"
+			(at 130.81 172.7199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 128.27 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 128.27 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_PCB" ""
+			(at 128.27 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "HilBox"
+				(path "/c950b3bb-3e52-4d0d-8bbf-240895efa80b"
+					(reference "H5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x20_Pin")
 		(at 77.47 109.22 0)
 		(unit 1)
@@ -2010,6 +2422,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x20, script generated"
+			(at 77.47 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC_PN" "C430380"
 			(at 77.47 109.22 0)
 			(effects
 				(font
@@ -2161,72 +2582,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:VCC")
-		(at 77.47 143.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5b40718b-33fe-4e69-bb4c-df6a1e28346d")
-		(property "Reference" "#PWR039"
-			(at 77.47 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "24V"
-			(at 77.47 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 77.47 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b6f1bb58-79ae-4bb7-ab81-1a1868d7037b")
-		)
-		(instances
-			(project "HilBox"
-				(path "/c950b3bb-3e52-4d0d-8bbf-240895efa80b"
-					(reference "#PWR039")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 118.11 132.08 0)
 		(unit 1)
@@ -2353,6 +2708,72 @@
 			(project "HilBox"
 				(path "/c950b3bb-3e52-4d0d-8bbf-240895efa80b"
 					(reference "#PWR040")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VCC")
+		(at 73.66 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "75f86f56-06ac-4635-aa18-a0ae5246cb6a")
+		(property "Reference" "#PWR026"
+			(at 73.66 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Vin"
+			(at 73.66 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 73.66 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 73.66 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 73.66 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "87157bc0-680e-4be0-af4c-8a89cbb82a26")
+		)
+		(instances
+			(project "HilBox"
+				(path "/c950b3bb-3e52-4d0d-8bbf-240895efa80b"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
